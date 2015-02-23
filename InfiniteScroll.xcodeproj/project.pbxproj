@@ -14,6 +14,7 @@
 		01DABCAC1A9B940700C096AA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01DABCAB1A9B940700C096AA /* Images.xcassets */; };
 		01DABCAF1A9B940700C096AA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01DABCAD1A9B940700C096AA /* LaunchScreen.xib */; };
 		01DABCBB1A9B940700C096AA /* InfiniteScrollTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DABCBA1A9B940700C096AA /* InfiniteScrollTests.m */; };
+		01DABCCA1A9B986800C096AA /* ScrollOneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DABCC91A9B986800C096AA /* ScrollOneView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		01DABCB41A9B940700C096AA /* InfiniteScrollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfiniteScrollTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01DABCB91A9B940700C096AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01DABCBA1A9B940700C096AA /* InfiniteScrollTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfiniteScrollTests.m; sourceTree = "<group>"; };
+		01DABCC81A9B986800C096AA /* ScrollOneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollOneView.h; sourceTree = "<group>"; };
+		01DABCC91A9B986800C096AA /* ScrollOneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollOneView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		01DABC9D1A9B940700C096AA /* InfiniteScroll */ = {
 			isa = PBXGroup;
 			children = (
+				01DABCC41A9B953200C096AA /* View */,
 				01DABCA21A9B940700C096AA /* AppDelegate.h */,
 				01DABCA31A9B940700C096AA /* AppDelegate.m */,
 				01DABCA51A9B940700C096AA /* ViewController.h */,
@@ -117,6 +121,15 @@
 				01DABCB91A9B940700C096AA /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01DABCC41A9B953200C096AA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				01DABCC81A9B986800C096AA /* ScrollOneView.h */,
+				01DABCC91A9B986800C096AA /* ScrollOneView.m */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +234,7 @@
 			files = (
 				01DABCA71A9B940700C096AA /* ViewController.m in Sources */,
 				01DABCA41A9B940700C096AA /* AppDelegate.m in Sources */,
+				01DABCCA1A9B986800C096AA /* ScrollOneView.m in Sources */,
 				01DABCA11A9B940700C096AA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
